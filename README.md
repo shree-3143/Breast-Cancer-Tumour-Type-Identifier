@@ -28,7 +28,7 @@ Although cell type detection is only a very small part of determining whether or
 
 After cleaning, manipulating, exploring and visualizing the data, I split the data into training and testing data sets (75% of the dataset was dedicated to training and 25% of the dataset was dedicated to testing). 
 
-The dependent dataset (Y) contained the diagnosis column – the target values – whether or not the patient has cancer. The independent dataset (X) contained data of the properties of each cell nucleus (essentially, the data used to achieve the target values).
+The dependent dataset (Y) contained the diagnosis column – the target values – whether or not the patient has cancer. The independent dataset (X) contained data of the properties of each  tumour (essentially, the data used to achieve the target values).
 
 After scaling the data to ensure all data was of the same magnitude, I trained the 3 models (from Scikit-Learn) on the training data. I found that the Decision Tree Classifier had the highest accuracy of the 3 models (100%) on the training data. I then proceeded to test this model (with the 3 models) on the testing data, using a confusion matrix, and again, found that the Decision Tree Classifier had the highest accuracy of the 3 models (95.3%) on the testing data.
 
