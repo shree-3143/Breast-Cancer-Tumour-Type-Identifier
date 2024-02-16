@@ -67,7 +67,7 @@ The final step to the project was printing the prediction of the data using the 
 
 Overall, the model is relatively accurate. There are only 7 tumours that the model has identified incorrectly, some being a False-Positive and others being a False-Negative.
 
-In the future, to try and attain closer to 100% accuracy for the predictions of the testing data, I will endeavor to change parameters in the existing models, and experiment with other models.
+In the future, to try and attain closer to 100% accuracy for the predictions of the testing data, I will endeavour to change parameters in the existing models, and experiment with other models.
 
 
 
